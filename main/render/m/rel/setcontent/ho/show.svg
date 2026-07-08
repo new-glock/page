@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns:x="http://ns.adobe.com/Extensibility/1.0/" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/" xmlns:graph="http://ns.adobe.com/Graphs/1.0/" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;}
+</style>
+<switch>
+	<foreignObject requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" x="0" y="0" width="1" height="1">
+		<i:pgfRef xlink:href="#adobe_illustrator_pgf">
+		</i:pgfRef>
+	</foreignObject>
+	<g i:extraneous="self">
+		<g id="grid">
+		</g>
+		<g id="icons" class="st0">
+			<g class="st1">
+				<path d="M42,8c0-1.1-0.9-2-2-2H4C2.9,6,2,6.9,2,8v24c0,1.1,0.9,2,2,2h20V16c0-1.1,0.9-2,2-2H42V8z"/>
+				<path d="M2,39.9c0,1.1,0.9,2,2,2H24v-4H4C2.9,37.9,2,38.8,2,39.9z"/>
+				<path d="M44.7,17.9H29.5c-0.8,0-1.4,0.6-1.4,1.4v25.3c0,0.8,0.6,1.4,1.4,1.4h15.2c0.8,0,1.4-0.6,1.4-1.4V19.3      C46,18.5,45.4,17.9,44.7,17.9z M37.1,41.9C37.1,41.9,37,41.9,37.1,41.9c-0.5,0-1-0.4-1-1c0-0.5,0.4-1,1-1c0,0,0,0,0,0      c0.5,0,1,0.4,1,1C38,41.5,37.6,41.9,37.1,41.9z"/>
+			</g>
+		</g>
+		<g id="Layer_3">
+			<g id="icons_Q2_3_">
+				<path d="M45.4,21.9L45.4,21.9c-2.1-2.6-9.9-11.1-21.3-11.1S4.9,19.3,2.8,21.9c-0.9,1.1-0.9,2.7,0,3.8      c2.1,2.6,9.9,11.1,21.3,11.1s19.2-8.5,21.3-11.1C46.3,24.6,46.3,23,45.4,21.9z M24.1,32.8c-8.8,0-15.3-6.2-17.7-9      c2.4-2.8,8.9-9,17.7-9s15.3,6.2,17.7,9C39.4,26.6,32.9,32.8,24.1,32.8z"/>
+				<circle cx="24.1" cy="23.8" r="6"/>
+			</g>
+		</g>
+	</g>
+</switch>
+</svg>

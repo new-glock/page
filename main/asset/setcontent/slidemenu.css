@@ -1,0 +1,403 @@
+#slidemenu_sidePanel {
+	width:260px;
+	position:absolute;
+	left:-260px;
+	top:0;
+	z-index:5;
+	overflow:auto;
+	-webkit-overflow-scrolling:touch;
+}
+.slidemenu_menu {
+	width:260px;
+	background-color:rgba(242,239,233,1);
+}
+ul.popoverMenu>li {
+	border-top:1px solid rgba(255,255,255,1);
+	border-bottom:1px solid rgba(218,212,203,1);
+}
+ul.popoverMenu>li.menuItem {
+	border-top:1px solid rgba(255,255,255,1);
+	border-bottom:1px solid rgba(218,212,203,1);
+	line-height:43px;
+	height:45px;
+}
+ul.popoverMenu>li.menuItem >.tally{
+	height:22px;
+	background:rgba(201,194,184,1);
+	-webkit-border-radius:15px/20px;
+		-moz-border-radius:15px/20px;
+			border-radius:15px/20px;
+	text-align:center;
+	position:relative;
+	top:10px;
+	right:10px;
+	color:rgba(255,255,255,1);
+	line-height:2px;
+	font-size: 14px;
+	padding:12px 12px;
+}
+ul.popoverMenu>li.menuItem >.tally.blue{
+	background:rgba(1,124,194,1);
+	color:rgba(255,255,255,1);
+}
+ul.popoverMenu>li.menuCategory {
+	background:rgba(232,228,221,1);
+	padding-left:10px;
+	line-height:21px;
+	color:rgba(164,153,135,1);
+	font-size:11px;
+	font-weight:bold;
+	min-height: 23px;
+}
+ul.popoverMenu>li>a, ul.popoverMenu>li a.linkButton {
+	display:block;
+}
+ul.popoverMenu>li>a,ul.popoverMenu>li>a:visited {
+	color:rgba(107,94,81,1);
+	font-size:16px;
+	text-decoration:none;
+	padding-left:40px;
+}
+ul.popoverMenu>li>a.on,ul.popoverMenu>li>a.on:visited {
+	font-size:16px;
+	color:rgba(1,124,194,1);
+	text-decoration:none;
+	padding-left:40px;
+}
+ul.popoverMenu>li>a:active {
+	color:rgba(1,124,194,1);
+	text-decoration:none;
+	padding-left:40px;
+}
+ul.popoverMenu>li>a:hover {
+	color:rgba(1,124,194,1);
+	text-decoration:none;
+	padding-left:40px;
+}
+ul.popoverMenu>li.button {
+	line-height:43px;
+	height:43px;
+	border-top:1px solid rgba(255,255,255,1);
+	border-bottom:1px solid rgba(218,212,203,1);
+	padding-left:10px;
+	line-height:21px;
+	color:rgba(164,153,135,1);
+	font-size:11px;
+	font-weight:bold;
+}
+ul.popoverMenu>li a.linkButton,ul.popoverMenu>li>a.linkButton:visited {
+	color:rgba(138,133,123,1);
+	text-decoration:none;
+}
+ul.popoverMenu>li a.linkButton:active {
+	color:rgba(1,124,194,1);
+	text-decoration:none;
+}
+ul.popoverMenu>li a.linkButton:hover {
+	color:rgba(1,124,194,1);
+	text-decoration:none;
+}
+ul.popoverMenu>li>span.menuButton {
+	line-height:30px;
+	display:inline-block;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	background:rgba(254,254,253,1) url('../images/signout_icn.png') no-repeat 10px center;
+	border:1px solid rgba(211,205,195,1);
+	text-align:center;
+	width:100px;
+	height:30px; 
+	font-size:12px;
+	margin-top:6px;
+	padding-left:5px;
+}
+ul.popoverMenu>li.button.icon{
+	position:absolute; 
+	top:36%; 
+	left:-4px;
+	background:url('../images/lock_icon.png')no-repeat center;
+	width:12px; 
+	height:12px;
+}
+/*Hamburger Slide Menu Icons with Sprites*/
+ul.popoverMenu > li.accounts{
+	background:rgba(242,239,233,1) url('../images/hamburger_off.png') no-repeat;
+	background-position:10px 15px;
+}
+ul.popoverMenu > li.accounts_on{
+	background:rgba(255,255,255,1) url('../images/hamburger_on.png') no-repeat;
+	background-position:10px 15px;
+}
+ul.popoverMenu > li.billpay{
+	background:rgba(242,239,233,1) url('../images/hamburger_off.png') no-repeat;
+	background-position:10px -112px;
+}
+ul.popoverMenu > li.billdotcom{
+	background:rgba(242,239,233,1) url('../images/hamburger_off.png') no-repeat;
+	background-position:10px -112px;
+}
+ul.popoverMenu > li.billpay_on{
+	background:rgba(255,255,255,1) url('../images/hamburger_on.png') no-repeat;
+	background-position:10px -112px;
+}
+ul.popoverMenu > li.transfers{
+	background:rgba(242,239,233,1) url('../images/hamburger_off.png') no-repeat;
+	background-position:10px -705px;
+}
+ul.popoverMenu > li.transfers_on{
+	background:rgba(255,255,255,1) url('../images/hamburger_on.png') no-repeat;
+	background-position:10px -705px;
+}
+ul.popoverMenu > li.bamd{
+	background:rgba(242,239,233,1) url('../images/hamburger_off.png') no-repeat;
+	background-position:10px -245px;
+}
+ul.popoverMenu > li.bamd_on{
+	background:rgba(255,255,255,1) url('../images/hamburger_on.png') no-repeat;
+	background-position:10px -245px;
+}
+ul.popoverMenu > li.help{
+	background:rgba(242,239,233,1) url('../images/hamburger_off.png') no-repeat;
+	background-position:10px -445px;
+}
+ul.popoverMenu > li.help_on{
+	background:rgba(255,255,255,1) url('../images/hamburger_on.png') no-repeat;
+	background-position:10px -445px;
+}
+ul.popoverMenu > li.contact{
+	background:rgba(242,239,233,1) url('../images/hamburger_off.png') no-repeat;
+	background-position:10px -178px;
+}	
+ul.popoverMenu > li.contact_on{
+	background:rgba(255,255,255,1) url('../images/hamburger_on.png') no-repeat;
+	background-position:10px -178px;
+}	
+ul.popoverMenu > li.locations{
+	background:rgba(242,239,233,1) url('../images/hamburger_off.png') no-repeat;
+	background-position:10px -576px;
+}	
+ul.popoverMenu > li.locations_on{
+	background:rgba(255,255,255,1) url('../images/hamburger_on.png') no-repeat;
+	background-position:10px -576px;
+}	
+ul.popoverMenu > li.settings{
+	background:rgba(242,239,233,1) url('../images/hamburger_off.png') no-repeat;
+	background-position:10px -643px;
+}	
+ul.popoverMenu > li.settings_on{
+	background:rgba(255,255,255,1) url('../images/hamburger_on.png') no-repeat;
+	background-position:10px -643px;
+}	
+ul.popoverMenu > li.feedback{
+	background:rgba(242,239,233,1) url('../images/hamburger_off.png') no-repeat;
+	background-position:10px -378px;
+}	
+ul.popoverMenu > li.feedback_on{
+	background:rgba(255,255,255,1) url('../images/hamburger_on.png') no-repeat;
+	background-position:10px -378px;
+}	
+ul.popoverMenu > li.legal{
+	background:rgba(242,239,233,1) url('../images/hamburger_off.png') no-repeat;
+	background-position:10px -509px;
+}
+ul.popoverMenu > li.legal_on{
+	background:rgba(255,255,255,1) url('../images/hamburger_on.png') no-repeat;
+	background-position:10px -509px;
+}
+ul.popoverMenu > li.prefrewards{
+	background:rgba(242,239,233,1) url('../images/hamburger_off.png') no-repeat 10px;
+	background-position:10px -768px;	
+}
+ul.popoverMenu > li.prefrewards_on{
+	background:rgba(255,255,255,1) url('../images/hamburger_on.png') no-repeat 10px;
+	background-position:10px -768px;	
+}
+ul.popoverMenu > li.bankrewards{
+	background:rgba(242,239,233,1) url('../images/hamburger_off.png') no-repeat 10px;
+	background-position:10px -831px;	
+}
+ul.popoverMenu > li.bankrewards_on{
+	background:rgba(255,255,255,1) url('../images/hamburger_on.png') no-repeat 10px;
+	background-position:10px -831px;	
+}
+@media only screen and (-webkit-min-device-pixel-ratio:2),
+only screen and (min-device-pixel-ratio:2){
+	/*
+	 *Hamburger Slide Menu Icons with Sprites*/
+	ul.popoverMenu > li.accounts{
+		background: rgba(242,239,233,1) url('../images/hamburger_off@2x.png') no-repeat;
+		-webkit-background-size:18px;
+			-moz-background-size:18px;
+				background-size:18px;
+		background-position:10px 14px;
+	}
+	ul.popoverMenu > li.accounts_on{
+		background: rgba(255,255,255,1) url('../images/hamburger_on@2x.png') no-repeat;
+		-webkit-background-size:18px;
+			-moz-background-size:18px;
+				background-size:18px;
+		background-position:10px 14px;
+	}
+	ul.popoverMenu > li.billpay{
+		background: rgba(242,239,233,1) url('../images/hamburger_off@2x.png') no-repeat;
+		-webkit-background-size:18px;
+			-moz-background-size:18px;
+				background-size:18px;
+		background-position:10px -63px;
+	}
+	ul.popoverMenu > li.billdotcom{
+		background: rgba(242,239,233,1) url('../images/hamburger_off@2x.png') no-repeat;
+		-webkit-background-size:18px;
+			-moz-background-size:18px;
+				background-size:18px;
+		background-position:10px -63px;
+	}
+	ul.popoverMenu > li.billpay_on{
+		background: rgba(255,255,255,1) url('../images/hamburger_on@2x.png') no-repeat;
+		-webkit-background-size:18px;
+			-moz-background-size:18px;
+				background-size:18px;
+		background-position:10px -63px;
+	}
+	ul.popoverMenu > li.transfers{
+		background: rgba(242,239,233,1) url('../images/hamburger_off@2x.png') no-repeat;
+		-webkit-background-size:18px;
+			-moz-background-size:18px;
+				background-size:18px;
+		background-position:10px -427px;
+	}
+	ul.popoverMenu > li.transfers_on{
+		background: rgba(255,255,255,1) url('../images/hamburger_on@2x.png') no-repeat;
+		-webkit-background-size:18px;
+			-moz-background-size:18px;
+				background-size:18px;
+		background-position:10px -427px;
+	}
+	ul.popoverMenu > li.bamd{
+		background: rgba(242,239,233,1) url('../images/hamburger_off@2x.png') no-repeat;
+		-webkit-background-size:18px;
+			-moz-background-size:18px;
+				background-size:18px;
+		background-position:10px -141px;
+	}
+	ul.popoverMenu > li.bamd_on{
+		background: rgba(255,255,255,1) url('../images/hamburger_on@2x.png') no-repeat;
+		-webkit-background-size:18px;
+			-moz-background-size:18px;
+				background-size:18px;
+		background-position:10px -141px;
+	}
+	ul.popoverMenu > li.help{
+		background: rgba(242,239,233,1) url('../images/hamburger_off@2x.png') no-repeat;
+		-webkit-background-size:18px;
+			-moz-background-size:18px;
+				background-size:18px;
+		background-position:10px -265px;
+	}
+	ul.popoverMenu > li.help_on{
+		background: rgba(255,255,255,1) url('../images/hamburger_on@2x.png') no-repeat;
+		-webkit-background-size:18px;
+			-moz-background-size:18px;
+				background-size:18px;
+		background-position:10px -265px;
+	}
+	ul.popoverMenu > li.contact{
+		background: rgba(242,239,233,1) url('../images/hamburger_off@2x.png') no-repeat;
+		-webkit-background-size:18px;
+			-moz-background-size:18px;
+				background-size:18px;
+		background-position:10px -101px;
+	}	
+	ul.popoverMenu > li.contact_on{
+		background: rgba(255,255,255,1) url('../images/hamburger_on@2x.png') no-repeat;
+		-webkit-background-size:18px;
+			-moz-background-size:18px;
+				background-size:18px;
+		background-position:10px -101px;
+	}	
+	ul.popoverMenu > li.locations{
+		background: rgba(242,239,233,1) url('../images/hamburger_off@2x.png') no-repeat;
+		-webkit-background-size:18px;
+			-moz-background-size:18px;
+				background-size:18px;
+		background-position:10px -346px;
+	}	
+	ul.popoverMenu > li.locations_on{
+		background: rgba(255,255,255,1) url('../images/hamburger_on@2x.png') no-repeat;
+		-webkit-background-size:18px;
+			-moz-background-size:18px;
+				background-size:18px;
+		background-position:10px -346px;
+	}	
+	ul.popoverMenu > li.settings{
+		background: rgba(242,239,233,1) url('../images/hamburger_off@2x.png') no-repeat;
+		-webkit-background-size:18px;
+			-moz-background-size:18px;
+				background-size:18px;
+		background-position:10px -387px;
+	}	
+	ul.popoverMenu > li.settings_on{
+		background: rgba(255,255,255,1) url('../images/hamburger_on@2x.png') no-repeat;
+		-webkit-background-size:18px;
+			-moz-background-size:18px;
+				background-size:18px;
+		background-position:10px -387px;
+	}	
+	ul.popoverMenu > li.feedback{
+		background: rgba(242,239,233,1) url('../images/hamburger_off@2x.png') no-repeat;
+		-webkit-background-size:18px;
+			-moz-background-size:18px;
+				background-size:18px;
+		background-position:10px -225px;
+	}	
+	ul.popoverMenu > li.feedback_on{
+		background: rgba(255,255,255,1) url('../images/hamburger_on@2x.png') no-repeat;
+		-webkit-background-size:18px;
+			-moz-background-size:18px;
+				background-size:18px;
+		background-position:10px -225px;
+	}	
+	ul.popoverMenu > li.legal{
+		background: rgba(242,239,233,1) url('../images/hamburger_off@2x.png') no-repeat;
+		-webkit-background-size:18px;
+			-moz-background-size:18px;
+				background-size:18px;
+		background-position:10px -306px;
+	}
+	ul.popoverMenu > li.legal_on{
+		background: rgba(255,255,255,1) url('../images/hamburger_on@2x.png') no-repeat;
+		-webkit-background-size:18px;
+			-moz-background-size:18px;
+				background-size:18px;
+		background-position:10px -306px;
+	}
+	ul.popoverMenu > li.prefrewards{
+	     background:rgba(242,239,233,1) url('../images/hamburger_off@2x.png') no-repeat 10px;	
+	     -webkit-background-size:18px;
+			-moz-background-size:18px;
+				background-size:18px;
+		background-position:10px -466px;
+    }
+    ul.popoverMenu > li.prefrewards_on{
+	     background:rgba(255,255,255,1) url('../images/hamburger_on@2x.png') no-repeat 10px;	
+	     -webkit-background-size:18px;
+			-moz-background-size:18px;
+				background-size:18px;
+		background-position:10px -466px;
+    }
+    ul.popoverMenu > li.bankrewards{
+	     background:rgba(242,239,233,1) url('../images/hamburger_off@2x.png') no-repeat 10px;	
+	     -webkit-background-size:18px;
+			-moz-background-size:18px;
+				background-size:18px;
+		background-position:10px -504px;
+    }
+    ul.popoverMenu > li.bankrewards_on{
+	     background:rgba(255,255,255,1) url('../images/hamburger_on@2x.png') no-repeat 10px;	
+	     -webkit-background-size:18px;
+			-moz-background-size:18px;
+				background-size:18px;
+		background-position:10px -504px;
+    }
+}
